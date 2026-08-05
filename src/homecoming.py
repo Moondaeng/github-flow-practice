@@ -8,3 +8,10 @@ class HomeComing():
         if energy == 10:
             print(self.words)
         
+        self.energy += 10
+        
+        return self.energy
+
+    
+
+        
