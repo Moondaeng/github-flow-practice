@@ -1,10 +1,10 @@
 class Work():
-    def __init__(self, human):
-        self.human = human
+    def __init__(self, energy):
+        self.energy = energy
     
-    def working(self, human):
-        if self.human > human:
-            self.human -= human
+    def working(self, energy):
+        if self.energy > energy:
+            self.energy -= energy
         else:
-            self.human = 0
+            self.energy = 0
         
