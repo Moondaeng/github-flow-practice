@@ -8,3 +8,4 @@ class Work():
         else:
             self.energy = 0
         
+        return self.energy

@@ -1,12 +1,11 @@
 from work import Work
+from homecoming import HomeComing
 
 man = Work(20)
 
-man.working(15)
+energy = man.working(15)
 
-from homecoming import HomeComing
-
-man = HomeComing()
+man = HomeComing(energy)
 
 man.go_home()
 
